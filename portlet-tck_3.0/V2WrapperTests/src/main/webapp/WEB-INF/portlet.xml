@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.     
+-->
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+   xmlns:tck="http://www.apache.org/portals/pluto/portlet-tck_3.0"
+   version="2.0" id="V2WrapperTests">
+   <portlet>
+      <portlet-name>WrapperTests_ActionRequestWrapper_ApiAction</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_ActionRequestWrapper_ApiAction</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_ActionRequestWrapper_ApiAction</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_ActionResponseWrapper_ApiAction</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_ActionResponseWrapper_ApiAction</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_ActionResponseWrapper_ApiAction</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_EventRequestWrapper_ApiEvent</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_EventRequestWrapper_ApiEvent</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_EventRequestWrapper_ApiEvent</title>
+      </portlet-info>
+      <supported-publishing-event>
+         <qname>tck:WrapperTests_EventRequestWrapper_ApiEvent</qname>
+      </supported-publishing-event>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_EventRequestWrapper_ApiEvent_event</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_EventRequestWrapper_ApiEvent_event</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_EventRequestWrapper_ApiEvent_event</title>
+      </portlet-info>
+      <supported-processing-event>
+         <qname>tck:WrapperTests_EventRequestWrapper_ApiEvent</qname>
+      </supported-processing-event>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_EventResponseWrapper_ApiEvent</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_EventResponseWrapper_ApiEvent</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_EventResponseWrapper_ApiEvent</title>
+      </portlet-info>
+      <supported-publishing-event>
+         <qname>tck:WrapperTests_EventResponseWrapper_ApiEvent</qname>
+      </supported-publishing-event>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_EventResponseWrapper_ApiEvent_event</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_EventResponseWrapper_ApiEvent_event</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_EventResponseWrapper_ApiEvent_event</title>
+      </portlet-info>
+      <supported-processing-event>
+         <qname>tck:WrapperTests_EventResponseWrapper_ApiEvent</qname>
+      </supported-processing-event>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_PortletRequestWrapper_ApiRender</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_PortletRequestWrapper_ApiRender</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_PortletRequestWrapper_ApiRender</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_PortletResponseWrapper_ApiRender</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_PortletResponseWrapper_ApiRender</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_PortletResponseWrapper_ApiRender</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_RenderRequestWrapper_ApiRender</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_RenderRequestWrapper_ApiRender</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_RenderRequestWrapper_ApiRender</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_RenderResponseWrapper_ApiRender</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_RenderResponseWrapper_ApiRender</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_RenderResponseWrapper_ApiRender</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_ResourceRequestWrapper_ApiResource</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_ResourceRequestWrapper_ApiResource</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_ResourceRequestWrapper_ApiResource</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+   <portlet>
+      <portlet-name>WrapperTests_ResourceResponseWrapper_ApiResource</portlet-name>
+      <portlet-class>javax.portlet.tck.portlets.WrapperTests_ResourceResponseWrapper_ApiResource</portlet-class>
+      <expiration-cache>0</expiration-cache>
+      <supports>
+         <mime-type>text/html</mime-type>
+      </supports>
+      <supported-locale>en_US</supported-locale>
+      <portlet-info>
+         <title>WrapperTests_ResourceResponseWrapper_ApiResource</title>
+      </portlet-info>
+   <supported-public-render-parameter>tckPRP1</supported-public-render-parameter>
+   </portlet>
+
+
+
+   <event-definition>
+      <qname>tck:WrapperTests_EventRequestWrapper_ApiEvent</qname>
+      <value-type>java.lang.String</value-type>
+   </event-definition>
+
+   <event-definition>
+      <qname>tck:WrapperTests_EventResponseWrapper_ApiEvent</qname>
+      <value-type>java.lang.String</value-type>
+   </event-definition>
+
+   <public-render-parameter>
+      <identifier>tckPRP1</identifier>
+      <qname>tck:tckPRP1</qname>
+   </public-render-parameter>
+</portlet-app>

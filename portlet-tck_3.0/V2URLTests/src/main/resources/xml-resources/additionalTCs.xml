@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.     
+-->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- JSR 286 API URLTests test case names and page mappings -->
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterA1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterA2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterA3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterA6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterA7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterA8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterB1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterB2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterB3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterB6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterB7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameterB8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters9">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters10">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setParameters12">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setSecure2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_toString">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_getParameterMap1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_getParameterMap2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_getParameterMap6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_writeA1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_writeB1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_addProperty1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_addProperty3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setProperty1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderRenurl_setProperty3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterA1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterA4">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterA6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterA7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterA8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterB1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterB4">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterB6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterB7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameterB8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters4">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters9">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters10">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setParameters12">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setSecure2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_toString">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_getParameterMap1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_getParameterMap3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_getParameterMap6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_writeA1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_writeB1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_addProperty1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_addProperty3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setProperty1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderActurl_setProperty3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterA1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterA5">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterA6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterA7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterA8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterB1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterB5">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterB6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterB7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameterB8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters5">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters7">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters8">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters9">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters10">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setParameters12">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setSecure2">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_toString">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_getParameterMap1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_getParameterMap4">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_getParameterMap5">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_getParameterMap6">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_writeA1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_writeB1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_addProperty1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_addProperty3">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setProperty1">V2URLTests</entry>
+<entry key="V2URLTests_BaseURL_ApiRenderResurl_setProperty3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_setWindowState1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_setWindowState2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_setPortletMode1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_setPortletMode2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_setPortletMode3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_getPortletMode1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_getPortletMode2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_getWindowState1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_getWindowState2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_removePublicRenderParameter1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderRenurl_removePublicRenderParameter2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_setWindowState1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_setWindowState2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_setPortletMode1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_setPortletMode2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_setPortletMode3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_getPortletMode1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_getPortletMode2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_getWindowState1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_getWindowState2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_removePublicRenderParameter1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURL_ApiRenderActurl_removePublicRenderParameter2">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_fieldFULL">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_fieldPAGE">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_fieldPORTLET">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_fieldSHARED">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_resourceURL4">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_resourceURL5">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_resourceURL6">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_resourceURL7">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_resourceURL8">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_resourceURL9">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_setResourceID">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_getCacheability">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_setCacheability1">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_setCacheability2">V2URLTests</entry>
+<entry key="V2URLTests_ResourceURL_ApiRenderResurl_setCacheability3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_configuration">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_portletURLGenerationListener6">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_filterActionURL1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_filterActionURL2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_filterActionURL3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_filterActionURL4">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderActurl_filterActionURL5">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderRenurl_filterRenderURL1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderRenurl_filterRenderURL2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderRenurl_filterRenderURL3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderRenurl_filterRenderURL4">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderRenurl_filterRenderURL5">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderResurl_filterResourceURL1">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderResurl_filterResourceURL2">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderResurl_filterResourceURL3">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderResurl_filterResourceURL4">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderResurl_filterResourceURL5">V2URLTests</entry>
+<entry key="V2URLTests_PortletURLGenerationListener_ApiRenderResurl_filterResourceURL7">V2URLTests</entry>
+</properties>

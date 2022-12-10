@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.     
+-->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- JSR 286 API PortletTests test case names and page mappings -->
+<entry key="V2PortletTests_PortletConfig_ApiRender_getPortletName">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getPortletContext">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getResourceBundle">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getInitParameter1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getInitParameter3">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getInitParameterNames1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getPublicRenderParameterNames1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getDefaultNamespace1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getPublishingEventQNames1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getProcessingEventQNames1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getSupportedLocales1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getContainerRuntimeOptions1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getContainerRuntimeOptions2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender_getContainerRuntimeOptions3">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender2_getInitParameter2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender2_getInitParameterNames2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender2_getPublicRenderParameterNames2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender2_getPublishingEventQNames2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender2_getProcessingEventQNames2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletConfig_ApiRender2_getSupportedLocales2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_constructor1">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_constructor2">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_fieldEDIT">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_fieldHELP">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_fieldVIEW">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_toString">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_hashCode">V2PortletTests</entry>
+<entry key="V2PortletTests_PortletMode_ApiRender_equals">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_constructor1">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_constructor2">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_fieldMAXIMIZED">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_fieldMINIMIZED">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_fieldNORMAL">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_toString">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_hashCode">V2PortletTests</entry>
+<entry key="V2PortletTests_WindowState_ApiRender_equals">V2PortletTests</entry>
+<entry key="V2PortletTests_Portlet_ApiRender_init1">V2PortletTests</entry>
+<entry key="V2PortletTests_Portlet_ApiRender_render1">V2PortletTests</entry>
+<entry key="V2PortletTests_Portlet_ApiRender_render2">V2PortletTests</entry>
+<entry key="V2PortletTests_Portlet_ApiAction_processAction">V2PortletTests</entry>
+<entry key="V2PortletTests_Event_ApiEvent_getQName1">V2PortletTests</entry>
+<entry key="V2PortletTests_Event_ApiEvent_getQName2">V2PortletTests</entry>
+<entry key="V2PortletTests_Event_ApiEvent_getName1">V2PortletTests</entry>
+<entry key="V2PortletTests_Event_ApiEvent_getName2">V2PortletTests</entry>
+<entry key="V2PortletTests_Event_ApiEvent_getValue1">V2PortletTests</entry>
+<entry key="V2PortletTests_Event_ApiEvent_getValue2">V2PortletTests</entry>
+<entry key="V2PortletTests_EventPortlet_ApiEvent_processEvent">V2PortletTests</entry>
+<entry key="V2PortletTests_ResourceServingPortlet_ApiResource_serveResource">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_initA">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_initB">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_processAction2">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_getTitle1">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_getTitle2">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_doDispatch1">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_doView1">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_getPortletConfig">V2PortletTests</entry>
+<entry key="V2PortletTests_GenericPortlet_ApiRender_getNextPossiblePortletModes1">V2PortletTests</entry>
+<entry key="V2AddlPortletTests_SPEC2_15_EventEventHandling_eventProcessEvent4">V2PortletTests</entry>
+<entry key="V2AddlPortletTests_SPEC2_6_RenderConfig_getPublishingEventQnames3">V2PortletTests</entry>
+<entry key="V2AddlPortletTests_SPEC2_6_RenderConfig_getProcessingEventQnames3">V2PortletTests</entry>
+</properties>

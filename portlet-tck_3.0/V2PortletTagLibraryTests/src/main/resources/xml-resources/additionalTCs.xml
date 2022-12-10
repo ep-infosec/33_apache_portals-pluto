@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.     
+-->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- JSR 286 API PortletTagLibraryTests test case names and page mappings -->
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPGeneral_defineObjects3">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPGeneral_defineObjects1">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPGeneral_defineObjects2">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPGeneral_defineObjects4">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPGeneral_namespace">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects1">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects2">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects3">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects4">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects5">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects6">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects7">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects8">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects9">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects10">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects11">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects12">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPAction_defineObjects13">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects1">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects2">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects3">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects4">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects5">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects6">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects7">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects8">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects9">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects10">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects11">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects12">V2PortletTagLibraryTests</entry>
+<entry key="V2PortletTagLibraryTests_SPEC2_26_IncludeJSPEvent_defineObjects13">V2PortletTagLibraryTests</entry>
+</properties>

@@ -1,0 +1,200 @@
+PARMS outputPath=c:\temp\gen
+//
+// The tool is used with the command: java -jar TestFileGenerator.jar <filespec>
+// Example:                           java -jar target\TestFileGenerator.jar ModuleAssertions.csv
+//
+// The format of this file is as follows:
+// * lines beginning with '//', blank lines, and the header line beginning with
+//   'Class / Section' are ignored.
+// * If the first line begins with 'PARMS', the rest of the line contains parameters for the run.
+//   The output path can be specified as parameter.
+// * A line containing a single word followed by ';;;;' starts a new module.
+// * The tool can generate multiple modules from one input file.
+// * The class name is generated from the module name and the contents of the first and 
+//   second columns. When this combination changes, you get a new portlet.
+//
+// The tool recognizes duplicate test case names. You should make sure that there are none.
+//
+Class / Section;Keywords;Name;Testable;Description
+PortletHubTests;;;;
+SPEC_23;JS;register1;TRUE;The portlet hub provides a global namespace var portlet of type object
+SPEC_23;JS;register2;TRUE;The global portlet object register property is type function
+SPEC_23;JS;register3;TRUE;The portlet hub register function throws a TypeError if no portlet ID argument is provided
+SPEC_23;JS;register4;TRUE;The portlet hub register function throws a TypeError if too many (>1) arguments are provided
+SPEC_23;JS;register5;TRUE;The portlet hub register function throws a TypeError if the portlet ID is not a string
+SPEC_23;JS;register6;TRUE;The portlet hub register function throws a TypeError if the portlet ID is undefined
+SPEC_23;JS;register7;TRUE;The portlet hub register function throws a TypeError if the portlet ID is null
+SPEC_23;JS;register8;TRUE;The portlet hub register function The promise fails if the portlet ID is not defined for the portlet hub
+SPEC_23;JS;register9;TRUE;The portlet hub register function returns a PortletInit object when provided with a valid portlet ID
+SPEC_23;JS;PortletInit1;TRUE;The PortletInit object portletModes property is an array
+SPEC_23;JS;PortletInit2;TRUE;The PortletInit object windowStates property is an array
+SPEC_23;JS;PortletInit3;TRUE;The PortletInit object action property is type function
+SPEC_23;JS;PortletInit4;TRUE;The PortletInit object addEventListener property is type function
+SPEC_23;JS;PortletInit5;TRUE;The PortletInit object createResourceUrl property is type function
+SPEC_23;JS;PortletInit6;TRUE;The PortletInit object dispatchClientEvent property is type function
+SPEC_23;JS;PortletInit7;TRUE;The PortletInit object isInProgress property is type function
+SPEC_23;JS;PortletInit8;TRUE;The PortletInit object newParameters property is type function
+SPEC_23;JS;PortletInit9;TRUE;The PortletInit object newState property is type function
+SPEC_23;JS;PortletInitA;TRUE;The PortletInit object removeEventListener property is type function
+SPEC_23;JS;PortletInitB;TRUE;The PortletInit object setRenderState property is type function
+SPEC_23;JS;PortletInitC;TRUE;The PortletInit object startPartialAction property is type function
+SPEC_23;JS;PortletInitD;TRUE;The PortletInit object constants property is type object
+SPEC_23;JS;Constants1;TRUE;The Constants object VIEW property is type string and equal to 'view'
+SPEC_23;JS;Constants2;TRUE;The Constants object EDIT property is type string and equal to 'edit'
+SPEC_23;JS;Constants3;TRUE;The Constants object HELP property is type string and equal to 'help'
+SPEC_23;JS;Constants4;TRUE;The Constants object NORMAL property is type string and equal to 'normal'
+SPEC_23;JS;Constants5;TRUE;The Constants object MINIMIZED property is type string and equal to 'minimized'
+SPEC_23;JS;Constants6;TRUE;The Constants object MAXIMIZED property is type string and equal to 'maximized'
+SPEC_23;JS;Constants7;TRUE;The Constants object FULL property is type string and equal to 'cacheLevelFull'
+SPEC_23;JS;Constants8;TRUE;The Constants object PORTLET property is type string and equal to 'cacheLevelPortlet'
+SPEC_23;JS;Constants9;TRUE;The Constants object PAGE property is type string and equal to 'cacheLevelPage'
+
+SPEC_23;JS State;Parameters1;TRUE;The PortletInit object newParameters function returns a Parameters object
+SPEC_23;JS State;Parameters2;TRUE;The PortletInit object newParameters function returns a Parameters object containing no parameters
+SPEC_23;JS State;Parameters3;TRUE;The PortletInit object newParameters function returns a Parameters object containing cloned values if passed a parameters object
+SPEC_23;JS State;State1;TRUE;The PortletInit object newState function returns a State object 
+SPEC_23;JS State;State2;TRUE;The PortletInit object newState function returns a State object containing no parameters if not passed a State object
+SPEC_23;JS State;State3;TRUE;The PortletInit object newState function returns a State object containing cloned values if passed a State object
+SPEC_23;JS State;clone;TRUE;The RenderState object clone property is type function
+SPEC_23;JS State;setPortletMode;TRUE;The RenderState object setPortletMode property is type function
+SPEC_23;JS State;getPortletMode;TRUE;The RenderState object getPortletMode property is type function
+SPEC_23;JS State;setWindowState;TRUE;The RenderState object setWindowState property is type function
+SPEC_23;JS State;getWindowState;TRUE;The RenderState object getWindowState property is type function
+SPEC_23;JS State;setValue;TRUE;The RenderState object setValue property is type function
+SPEC_23;JS State;getValue;TRUE;The RenderState object getValue property is type function
+SPEC_23;JS State;getValues;TRUE;The RenderState object getValues property is type function
+SPEC_23;JS State;remove;TRUE;The RenderState object remove property is type function
+SPEC_23;JS State;parameters;TRUE;The RenderState object parameters property is type object
+SPEC_23;JS State;portletMode;TRUE;The RenderState object portletMode property is type string
+SPEC_23;JS State;windowState;TRUE;The RenderState object windowState property is type string
+SPEC_23;JS State;clone1;TRUE;The RenderState object clone function returns a new object instance
+SPEC_23;JS State;clone2;TRUE;The RenderState object clone function returns a RenderState object with the required properties
+SPEC_23;JS State;clone3;TRUE;The RenderState object clone function returns a RenderState object with the same portlet mode
+SPEC_23;JS State;clone4;TRUE;The RenderState object clone function returns a RenderState object with the same window state
+SPEC_23;JS State;clone5;TRUE;The RenderState object clone function returns a RenderState object with no parameters if the original had no parameters
+SPEC_23;JS State;clone6;TRUE;The RenderState object clone function returns a RenderState object with the same single-value parameters if the original had single-value parameters
+SPEC_23;JS State;clone7;TRUE;The RenderState object clone function returns a RenderState object with the same multi-value parameters if the original had multi-value parameters
+SPEC_23;JS State;setPortletMode1;TRUE;The RenderState object setPortletMode function throws a TypeError if the argument is not a string
+SPEC_23;JS State;setPortletMode2;TRUE;The RenderState object setPortletMode function sets the portlet mode
+SPEC_23;JS State;getPortletMode1;TRUE;The RenderState object getPortletMode function returns the portlet mode
+SPEC_23;JS State;setWindowState1;TRUE;The RenderState object setWindowState function throws a TypeError if the argument is not a string
+SPEC_23;JS State;setWindowState2;TRUE;The RenderState object setWindowState function sets the window state
+SPEC_23;JS State;getWindowState1;TRUE;The RenderState object getWindowState function returns the window state
+SPEC_23;JS State;setValue1;TRUE;The RenderState object setValue function throws a TypeError if the parameter name is not a string
+SPEC_23;JS State;setValue2;TRUE;The RenderState object setValue function throws a TypeError if the parameter value is not a string or array
+SPEC_23;JS State;setValue3;TRUE;The RenderState object setValue function can set a single-valued parameter
+SPEC_23;JS State;setValue4;TRUE;The RenderState object setValue function can set a multi-valued parameter
+SPEC_23;JS State;setValue5;TRUE;The RenderState object setValue function can set a parameter to null
+SPEC_23;JS State;getValue1;TRUE;The RenderState object getValue function throws a TypeError if the parameter name is not a string
+SPEC_23;JS State;getValue2;TRUE;The RenderState object getValue function returns a single-valued parameter
+SPEC_23;JS State;getValue3;TRUE;The RenderState object getValue function returns null if the parameter was set to null
+SPEC_23;JS State;getValue4;TRUE;The RenderState object getValue function returns the first value of a multi-valued parameter
+SPEC_23;JS State;getValue5;TRUE;The RenderState object getValue function returns undefined if the parameter name does not exist and there is no default
+SPEC_23;JS State;getValue6;TRUE;The RenderState object getValue function returns the default if the parameter name does not exist and a default is provided
+SPEC_23;JS State;getValues1;TRUE;The RenderState object getValues function throws a TypeError if the parameter name is not a string
+SPEC_23;JS State;getValues2;TRUE;The RenderState object getValues function returns an array of strings for a multi-valued parameter
+SPEC_23;JS State;getValues3;TRUE;The RenderState object getValues function returns undefined if the parameter name does not exist and there is no default
+SPEC_23;JS State;getValues4;TRUE;The RenderState object getValues function returns the default if the parameter name does not exist and a default is provided
+SPEC_23;JS State;remove1;TRUE;The RenderState object remove function throws a TypeError if the parameter name is not a string
+SPEC_23;JS State;remove2;TRUE;The RenderState object remove function removes an existing parameter
+
+SPEC_23;JS Exc;addEventListener1;TRUE;The PortletInit object addEventListener function throws a TypeError if no argument is provided
+SPEC_23;JS Exc;addEventListener2;TRUE;The PortletInit object addEventListener function throws a TypeError if 1 argument is provided
+SPEC_23;JS Exc;addEventListener3;TRUE;The PortletInit object addEventListener function throws a TypeError if too many (>2) arguments are provided
+SPEC_23;JS Exc;addEventListener4;TRUE;The PortletInit object addEventListener function throws a TypeError if the type argument is not a string
+SPEC_23;JS Exc;addEventListener5;TRUE;The PortletInit object addEventListener function throws a TypeError if the function argument is not a function
+SPEC_23;JS Exc;addEventListener6;TRUE;The PortletInit object addEventListener function throws a TypeError if the type is null
+SPEC_23;JS Exc;addEventListener7;TRUE;The PortletInit object addEventListener function throws a TypeError if the function is null
+SPEC_23;JS Exc;addEventListener8;TRUE;The PortletInit object addEventListener function throws a TypeError if the type begins with "portlet." but is neither "portlet.onStateChange" or "portlet.onError"
+SPEC_23;JS Exc;removeEventListener1;TRUE;The PortletInit object removeEventListener function throws a TypeError if no argument is provided
+SPEC_23;JS Exc;removeEventListener2;TRUE;The PortletInit object removeEventListener function throws a TypeError if too many (>1) arguments are provided
+SPEC_23;JS Exc;removeEventListener3;TRUE;The PortletInit object removeEventListener function throws a TypeError if the handle is null
+SPEC_23;JS Exc;removeEventListener4;TRUE;The PortletInit object removeEventListener function throws a TypeError if the handle is undefined
+SPEC_23;JS Exc;removeEventListener5;TRUE;The PortletInit object removeEventListener function throws a TypeError if the handle has an invalid value
+SPEC_23;JS Exc;createResourceUrl1;TRUE;The PortletInit object createResourceUrl function throws a TypeError if too many (>3) arguments are provided
+SPEC_23;JS Exc;createResourceUrl2;TRUE;The PortletInit object createResourceUrl function throws a TypeError if resource parameters is invalid
+SPEC_23;JS Exc;createResourceUrl3;TRUE;The PortletInit object createResourceUrl function throws a TypeError if the cacheability argument is invalid
+SPEC_23;JS Exc;setRenderState1;TRUE;The PortletInit object setRenderState function throws a TypeError if no argument is provided
+SPEC_23;JS Exc;setRenderState2;TRUE;The PortletInit object setRenderState function throws a TypeError if too many (>1) arguments are provided
+SPEC_23;JS Exc;setRenderState3;TRUE;The PortletInit object setRenderState function throws a TypeError if the argument is not an object
+SPEC_23;JS Exc;setRenderState4;TRUE;The PortletInit object setRenderState function throws a TypeError if the single argument is null
+SPEC_23;JS Exc;setRenderState5;TRUE;The PortletInit object setRenderState function throws a TypeError if the argument does not have a "parameters" property
+SPEC_23;JS Exc;setRenderState6;TRUE;The PortletInit object setRenderState function throws a TypeError if the argument does not have a "windowState" property
+SPEC_23;JS Exc;setRenderState7;TRUE;The PortletInit object setRenderState function throws a TypeError if the argument does not have a "portletMode" property
+SPEC_23;JS Exc;setRenderState9;TRUE;The PortletInit object setRenderState function throws an NotInitializedException if no onStateChange listener is registered
+SPEC_23;JS Exc;setRenderStateA;TRUE;The PortletInit object setRenderState function throws a TypeError if "windowState" has an invalid value
+SPEC_23;JS Exc;setRenderStateB;TRUE;The PortletInit object setRenderState function throws a TypeError if "portletMode" has an invalid value
+SPEC_23;JS Exc;action1;TRUE;The PortletInit object action function throws a TypeError if too many (>2) arguments are provided
+SPEC_23;JS Exc;action2;TRUE;The PortletInit object action function throws a TypeError if a single argument is null
+SPEC_23;JS Exc;action3;TRUE;The PortletInit object action function throws a TypeError if the element argument is null
+SPEC_23;JS Exc;action4;TRUE;The PortletInit object action function throws a TypeError if action parameters is null
+SPEC_23;JS Exc;action5;TRUE;The PortletInit object action function throws a TypeError if action parameters is invalid
+SPEC_23;JS Exc;action6;TRUE;The PortletInit object action function throws a TypeError if the element argument is invalid
+SPEC_23;JS Exc;action7;TRUE;The PortletInit object action function throws a TypeError if there are 2 element arguments
+SPEC_23;JS Exc;action8;TRUE;The PortletInit object action function throws a TypeError if there are 2 action parameters arguments
+SPEC_23;JS Exc;actionA;TRUE;The PortletInit object action function throws an NotInitializedException if no onStateChange listener is registered.
+SPEC_23;JS Exc;startPartialAction1;TRUE;The PortletInit object startPartialAction function throws a TypeError if too many (>1) arguments are provided
+SPEC_23;JS Exc;startPartialAction2;TRUE;The PortletInit object startPartialAction function throws a TypeError if the single argument is null
+SPEC_23;JS Exc;startPartialAction3;TRUE;The PortletInit object startPartialAction function throws a TypeError if action parameters is invalid
+SPEC_23;JS Exc;startPartialAction4;TRUE;The PortletInit object startPartialAction function throws an NotInitializedException if no onStateChange listener is registered.
+
+SPEC_23;JS Listener;onStateChange1;TRUE;After an onStateChange listener is added, the portlet hub calls the onStateChange function
+SPEC_23;JS Listener;onStateChange2;TRUE;The onStateChange listener type argument has the value 'portlet.onStateChange'
+SPEC_23;JS Listener;onStateChange3;TRUE;The onStateChange listener renderState argument is a valid RenderState object
+SPEC_23;JS Listener;onStateChange4;TRUE;A previously added onStateChangeListener can be removed
+SPEC_23;JS Listener;onStateChange5;TRUE;The portlet hub throws a TypeError if a previously added onStateChange listener is removed twice
+SPEC_23;JS Listener;onError1;TRUE;An onError listener can be added
+SPEC_23;JS Listener;onError2;TRUE;A previously added onError listener can be removed
+SPEC_23;JS Listener;onError3;TRUE;The portlet hub throws a TypeError if a previously added onError listener is removed twice
+
+SPEC_23;JS URL;createResourceUrl1;TRUE;The portlet hub createResourceUrl function returns a string if called with no arguments
+SPEC_23;JS URL;createResourceUrl2;TRUE;The portlet hub createResourceUrl function returns a string if called with a resource parameters argument
+SPEC_23;JS URL;createResourceUrl3;TRUE;The portlet hub createResourceUrl function returns a string if called with resource parameters and cacheability arguments
+SPEC_23;JS URL;createResourceUrl4;TRUE;The portlet hub createResourceUrl function returns a string if called with resource parameters, cacheability, and resource ID arguments
+SPEC_23;JS URL;createResourceUrl5;TRUE;The portlet hub createResourceUrl function returns a string if called with a resource ID argument and with the resource parameters and cacheability arguments null 
+SPEC_23;JS URL;createResourceUrl6;TRUE;The portlet hub createResourceUrl function returns a URL with cacheability set to "cacheLevelPage"
+SPEC_23;JS URL;createResourceUrl7;TRUE;The portlet hub createResourceUrl function returns a URL with cacheability set to "cacheLevelPortlet"
+SPEC_23;JS URL;createResourceUrl8;TRUE;The portlet hub createResourceUrl function returns a URL with cacheability set to "cacheLevelFull"
+SPEC_23;JS URL;createResourceUrl9;TRUE;The portlet hub createResourceUrl function returns a URL with the resource parameters set as expected
+SPEC_23;JS URL;createResourceUrl0;TRUE;The portlet hub createResourceUrl function returns a URL with multivalued resource parameters set as expected
+SPEC_23;JS URL;createResourceUrlA;TRUE;The portlet hub createResourceUrl function returns a URL with multivalued resource parameters containing null set as expected
+SPEC_23;JS URL;createResourceUrlB;TRUE;The portlet hub createResourceUrl function returns a URL with the render state set when cacheability = cacheLevelPage
+SPEC_23;JS URL;createResourceUrlC;TRUE;The portlet hub createResourceUrl function returns a URL with the render state set when cacheability = cacheLevelPortlet
+SPEC_23;JS URL;createResourceUrlD;TRUE;The portlet hub createResourceUrl function returns a URL with no render state set when cacheability = cacheLevelFull
+
+SPEC_23;JS RS;setRenderState1;TRUE;The portlet hub setRenderState function causes the onStateChange listener to be called
+SPEC_23;JS RS;setRenderState2;TRUE;The portlet hub setRenderState function allows the portlet mode to be set to "edit"
+SPEC_23;JS RS;setRenderState3;TRUE;The portlet hub setRenderState function allows the portlet mode to be set to "view"
+SPEC_23;JS RS;setRenderState4;TRUE;The portlet hub setRenderState function allows the window state to be set to "maximized"
+SPEC_23;JS RS;setRenderState5;TRUE;The portlet hub setRenderState function allows the window state to be set to "normal"
+SPEC_23;JS RS;setRenderState6;TRUE;The portlet hub setRenderState function allows a new parameter "NewParm" to be set to "NewVal"
+SPEC_23;JS RS;setRenderState7;TRUE;The portlet hub setRenderState function allows parameter "NewParm" to be set to ["NewVal1", "NewVal2"]
+SPEC_23;JS RS;setRenderState8;TRUE;The portlet hub setRenderState function allows a new parameter "NewParm" to be deleted
+SPEC_23;JS RS;setRenderState9;TRUE;The portlet hub setRenderState function allows all parameters to be deleted
+SPEC_23;JS RS;setRenderState0;TRUE;The portlet hub setRenderState function allows several parameters to be set
+SPEC_23;JS RS;setRenderStateA;TRUE;The portlet hub setRenderState function allows setting the state back to the original test data
+
+SPEC_23;JS Action;Action1;TRUE;The portlet hub action function can be called with no arguments
+SPEC_23;JS Action;Action2;TRUE;The portlet hub action function can be called with an action parameters argument
+SPEC_23;JS Action;Action3;TRUE;The portlet hub action function can be called with a form element argument
+SPEC_23;JS Action;Action4;TRUE;The portlet hub action function can be called with both action parameters and form element arguments
+SPEC_23;JS Action;Action5;TRUE;The portlet hub action function can cause a private render parameter to be set for the initiating portlet
+SPEC_23;JS Action;Action6;TRUE;The portlet hub action function can cause a private render parameter to be set for a portlet that is target of an event
+SPEC_23;JS Action;Action7;TRUE;The portlet hub action function fulfills the promise when the action is complete
+
+SPEC_23;JS PRP;setRenderState1;TRUE;The portlet hub setRenderState function informs the initiating portlet when a public render parameter is set
+SPEC_23;JS PRP;setRenderState2;TRUE;The portlet hub setRenderState function informs other affected portlets when a public render parameter is set
+SPEC_23;JS PRP;setRenderState3;TRUE;The portlet hub setRenderState function allows a public render parameter to be deleted
+SPEC_23;JS PRP;setRenderState4;TRUE;The portlet hub setRenderState function informs other affected portlets when public render parameter is deleted
+SPEC_23;JS PRP;Action1;TRUE;The portlet hub action function can cause a public render parameter to be set for the initiating portlet that is target of an event
+SPEC_23;JS PRP;Action2;TRUE;The portlet hub action function can cause a public render parameter to be set for an affected portlet through an event
+
+SPEC_23;JS PA;startPartialAction1;TRUE;The portlet hub startPartialAction function can be called with no arguments
+SPEC_23;JS PA;startPartialAction2;TRUE;The portlet hub startPartialAction function can be called with an action parameters argument
+SPEC_23;JS PA;startPartialAction3;TRUE;The portlet hub startPartialAction function returns a PartialActionInit object
+SPEC_23;JS PA;startPartialAction4;TRUE;The PartialActionInit object has a url property of type string
+SPEC_23;JS PA;startPartialAction5;TRUE;The PartialActionInit object has a setPageState property of type function
+SPEC_23;JS PA;startPartialAction6;TRUE;The PartialActionInit object url property used in an XHR causes a token to be returned that completes the partial action when passed to the setPageState function
+SPEC_23;JS PA;startPartialAction7;TRUE;The onStateChange event resulting from a partial action contains render data produced by the portlet resource method
+
+

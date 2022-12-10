@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.     
+-->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- JSR 286 API WrapperTests test case names and page mappings -->
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getContentLength">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getPortletInputStream">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getReader">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_setCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_setRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionRequestWrapper_ApiAction_getMethod">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_sendRedirectA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_sendRedirectB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setEventA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setEventB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setPortletMode">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setRenderParameterA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setRenderParameterB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setRenderParameters">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setWindowState">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_getResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_setResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_getPortletMode">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_getRenderParameterMap1">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_getWindowState">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ActionResponseWrapper_ApiAction_removePublicRenderParameter">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventRequestWrapper_ApiEvent_getRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventRequestWrapper_ApiEvent_setRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventRequestWrapper_ApiEvent_getEvent1">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventRequestWrapper_ApiEvent_getMethod">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setEventA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setEventB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setPortletMode">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setRenderParameterA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setRenderParameterB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setRenderParametersA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setRenderParametersB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setWindowState">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_getResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_setResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_getPortletMode">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_getRenderParameterMap1">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_getWindowState">V2WrapperTests</entry>
+<entry key="V2WrapperTests_EventResponseWrapper_ApiEvent_removePublicRenderParameter">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getAttribute">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getAttributeNames">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getAuthType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getContextPath">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getCookies">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getLocale">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getLocales">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getParameter">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getParameterMap">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getParameterNames">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getParameterValues">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPortalContext">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPortletMode">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPortletSessionA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPortletSessionB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPreferences">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getProperties">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getProperty">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPropertyNames">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getRemoteUser">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getRequestedSessionId">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getResponseContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getResponseContentTypes">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getScheme">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getServerName">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getServerPort">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getUserPrincipal">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getWindowID">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getWindowState">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_isPortletModeAllowed">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_isRequestedSessionIdValid">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_isSecure">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_isUserInRole">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_isWindowStateAllowed">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_removeAttribute">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_setAttribute">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_setRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPrivateParameterMap">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletRequestWrapper_ApiRender_getPublicParameterMap">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_addPropertyA">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_addPropertyB">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_addPropertyC">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_encodeURL">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_getNamespace">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_setProperty">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_getResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_setResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_PortletResponseWrapper_ApiRender_createElement">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderRequestWrapper_ApiRender_getRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderRequestWrapper_ApiRender_setRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderRequestWrapper_ApiRender_getETag">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_flushBuffer">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getBufferSize">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getLocale">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getPortletOutputStream">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getWriter">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_isCommitted">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_reset">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_resetBuffer">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_setBufferSize">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_setContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_setTitle">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getCacheControl">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_setNextPossiblePortletModes">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_getResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_setResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_createActionURL">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_createRenderURL">V2WrapperTests</entry>
+<entry key="V2WrapperTests_RenderResponseWrapper_ApiRender_createResourceURL">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getPortletInputStream">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getReader">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_setCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_setRequest">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getContentLength">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getETag">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getMethod">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getResourceID">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getPrivateRenderParameterMap">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceRequestWrapper_ApiResource_getCacheability">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_flushBuffer">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getBufferSize">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getLocale">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getPortletOutputStream">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getWriter">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_isCommitted">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_reset">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_resetBuffer">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_setBufferSize">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_setContentType">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getCacheControl">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_setCharacterEncoding">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_setLocale">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_setContentLength">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_getResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_setResponse">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_createActionURL">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_createRenderURL">V2WrapperTests</entry>
+<entry key="V2WrapperTests_ResourceResponseWrapper_ApiResource_createResourceURL">V2WrapperTests</entry>
+</properties>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+<!-- 
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at 
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed  under the  License is distributed on an "AS IS" BASIS,
+WITHOUT  WARRANTIES OR CONDITIONS  OF ANY KIND, either  express  or
+implied.
+
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+
+  <display-name>Apache Pluto Portal Driver</display-name>
+
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/pluto-portal-driver-services-config.xml</param-value>
+  </context-param>
+
+  <filter>
+    <filter-name>plutoPortalDriver</filter-name>
+    <filter-class>org.apache.pluto.driver.PortalDriverFilter</filter-class>
+    <async-supported>true</async-supported>
+  </filter>
+
+  <filter>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    <async-supported>true</async-supported>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>plutoPortalDriver</filter-name>
+    <url-pattern>/about.jsp</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>plutoPortalDriver</filter-name>
+    <url-pattern>/about.jsp/*</url-pattern>
+  </filter-mapping>
+
+  <listener>
+    <listener-class>org.apache.pluto.driver.PortalStartupListener</listener-class>
+  </listener>
+
+  <servlet>
+    <description>Pluto Portal Driver Controller</description>
+    <display-name>Pluto Portal Driver</display-name>
+    <servlet-name>plutoPortalDriver</servlet-name>
+    <servlet-class>org.apache.pluto.driver.PortalDriverServlet</servlet-class>
+    <async-supported>true</async-supported>
+    <multipart-config>
+      <file-size-threshold>1048576</file-size-threshold>
+    </multipart-config>
+  </servlet>
+
+  <servlet>
+    <description>Pluto Portal Driver Logout</description>
+    <display-name>Pluto Portal Driver</display-name>
+    <servlet-name>plutoPortalDriverLogout</servlet-name>
+    <servlet-class>org.apache.pluto.driver.PortalDriverLogoutServlet</servlet-class>
+    <async-supported>true</async-supported>
+  </servlet>
+
+  <servlet>
+    <description>Portlet Application Publisher Service</description>
+    <display-name>Portlet Application Publisher</display-name>
+    <servlet-name>portletApplicationPublisher</servlet-name>
+    <servlet-class>org.apache.pluto.driver.PublishServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>Pluto TCK Driver Controller</description>
+    <display-name>Pluto TCK Driver</display-name>
+    <servlet-name>tckDriver</servlet-name>
+    <servlet-class>org.apache.pluto.driver.TCKDriverServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AboutPortlet</servlet-name>
+    <servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+    <init-param>
+      <param-name>portlet-name</param-name>
+      <param-value>AboutPortlet</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AdminPortlet</servlet-name>
+    <servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+    <init-param>
+      <param-name>portlet-name</param-name>
+      <param-value>AdminPortlet</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PlutoPageAdmin</servlet-name>
+    <servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+    <init-param>
+      <param-name>portlet-name</param-name>
+      <param-value>PlutoPageAdmin</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>plutoPortalDriver</servlet-name>
+    <url-pattern>/portal/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>plutoPortalDriverLogout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>portletApplicationPublisher</servlet-name>
+    <url-pattern>/admin/Publish</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>tckDriver</servlet-name>
+    <url-pattern>/tck/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AboutPortlet</servlet-name>
+    <url-pattern>/PlutoInvoker/AboutPortlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AdminPortlet</servlet-name>
+    <url-pattern>/PlutoInvoker/AdminPortlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PlutoPageAdmin</servlet-name>
+    <url-pattern>/PlutoInvoker/PlutoPageAdmin</url-pattern>
+  </servlet-mapping>
+
+  <jsp-config>
+    <taglib>
+      <taglib-uri>http://portals.apache.org/pluto</taglib-uri>
+      <taglib-location>/WEB-INF/tld/pluto.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>portal</web-resource-name>
+      <url-pattern>/portal</url-pattern>
+      <url-pattern>/portal/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>pluto</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/login.jsp</form-login-page>
+      <form-error-page>/login.jsp?error=1</form-error-page>
+    </form-login-config>
+  </login-config>
+
+  <security-role>
+    <role-name>pluto</role-name>
+  </security-role>
+
+</web-app>
+
